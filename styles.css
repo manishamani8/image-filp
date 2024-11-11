@@ -1,0 +1,204 @@
+
+body{
+    background-color:darkslategray;
+
+}
+
+h1{
+    color: whitesmoke;
+    font-family: Arial,sans-serif;
+}
+p{
+    font-size:x-small;
+}
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:10px;
+    width: 60%;
+}
+.container{
+    width: 380px;
+    height:250px;
+    margin:5px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5xp 10px black;
+    overflow: hidden;
+    text-align: center;
+
+}
+.container img{
+    width:inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition:all 0.5s;
+
+}
+.container:hover img{
+    transform: scale(1.2,1.2);
+}
+.container .content{
+    position:absolute ;
+    top: 0;
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    width:50% ;
+    height:100%;
+    padding:5px;
+    box-sizing: border-box;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+    border-radius: 10px;
+
+
+}
+
+.container:hover .content{
+    transform: perspective(400px) rotateY(0deg);
+
+}
+p{
+    font-size:x-small;
+}
+.container1{
+    width: 380px;
+    height:250px;
+    margin:5px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5xp 10px black;
+    overflow: hidden;
+
+
+}
+.container1 img{
+    width:inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition:all 0.5s;
+    display: flex;
+
+}
+.container1:hover img{
+    transform: scale(1.2,1.2);
+}
+.container1 .content1{
+    position:absolute ;
+    top: 0;
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    width:50% ;
+    height:100%;
+    padding:5px;
+    box-sizing: border-box;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+    border-radius: 10px;
+
+
+}
+
+.container1:hover .content1{
+    transform: perspective(400px) rotateY(0deg);
+
+}
+p{
+    font-size:x-small;
+}
+.container2{
+    width: 380px;
+    height:250px;
+    margin:5px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5xp 10px black;
+    overflow: hidden;
+    
+
+}
+.container2 img{
+    width:inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition:all 0.5s;
+
+
+}
+.container2:hover img{
+    transform: scale(1.2,1.2);
+}
+.container2 .content2{
+    position:absolute ;
+    top: 0;
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    width:50% ;
+    height:100%;
+    padding:5px;
+    box-sizing: border-box;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+    border-radius: 10px;
+
+
+}
+
+.container2:hover .content2{
+    transform: perspective(400px) rotateY(0deg);
+
+}
+p{
+    font-size:x-small;
+}
+.container3{
+    width: 380px;
+    height:250px;
+    margin:5px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5xp 10px black;
+    overflow: hidden;
+    
+
+}
+.container3 img{
+    width:inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition:all 0.5s;
+
+
+}
+.container3:hover img{
+    transform: scale(1.2,1.2);
+}
+.container3 .content3{
+    position:absolute ;
+    top: 0;
+    color: black;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    width:50% ;
+    height:100%;
+    padding:5px;
+    box-sizing: border-box;
+    transform: perspective(400px) rotateY(90deg);
+    transform-origin: left;
+    transition: all 0.5s;
+    border-radius: 10px;
+
+
+}
+
+.container3:hover .content3{
+    transform: perspective(400px) rotateY(0deg);
+
+}
